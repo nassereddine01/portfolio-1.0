@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="new.css">
+    <script src="new.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <title>new</title>
+    <link rel="icon" type="image/x-icon" href="images/images.png">
+</head>
+<body>    
+    <!--------------HEADING ---------------------->
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    <div class="header" id="home">
+        <a href="#home" class="logo"><span>N</span>assereddine<span>.</span></a>
+        <div class="header-right">
+                <a class="active" href="#home">Home</a>
+                <a href="#About">About</a>
+                <a href="#Education">Education</a>
+                <a href="#Contact">Contact</a>
+                <img src="images/sun-icone2.png" onclick="myFunction()" alt="moon" id="icon">
+        </div>
+    </div>
+
+    <div class="header-text">
+        <br><h1 class="text">Hi i'm <span>NASSEREDDINE</span> Abdenbi <span>,</span><br>and this is my web site <span>.</span></h1>
+    </div>
+    <img src="images/111.jpeg" alt="profil" class="main-img">
+
+    <!--------------/HEADING ---------------------->
+
+    <!-------------- About Me ---------------------->
+    <div id="About">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/10.jpeg" alt="profil" >
+                </div>
+                <div class="about-col-2">
+                    <h1 class="subtitle"><span>A</span>bout Me</h1><br><br>
+                    <p style="font-size: 30px;">Hi, I am Nassereddine Abdenbi, an engineering student at the National School of Applied Sciences at Safi,<br><span>--ENSA SAFI--</span><br><br>it is my first year in computer engineering and artificial intelligence.<br><br>Passionate about creating and developing web interfaces I created this website in order to share with you my projects <br><br>wishing they have your admiration <i class='bx bxs-happy-alt' style='color:#f8ce0a'></i>.</p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-------------- /About Me ---------------------->
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <!-------------- Education ---------------------->
+    <div class="about-col-2">
+        <h1 class="subtitle" id="Education" style="text-align:center ;"><span>E</span>ducation</h1>
+    </div>
+    <div class="timeline">
+        <div class="containere left">
+          <div class="content">
+            <h2>2019 - 2020</h2><br>
+            <p>baccalaureate <br><br>Option: Physical and Chemical Sciences<br><br>Al MANAL high School</p>
+            
+          </div>
+        </div>
+        <div class="containere right">
+          <div class="content">
+            <h2>2020 - 2022</h2><br>
+            <p>preparatory classes<br><br>the National School of Applied Sciences at Safi</p>
+          </div>
+        </div>
+        <div class="containere left">
+          <div class="content">
+            <h2>2022 - 2025</h2><br>
+            <p>engineering cycle<br><br>computer engineering and artificial intelligence<br><br>the National School of Applied Sciences at Safi</p>
+
+          </div>
+        </div>
+    </div>
+        <br><br>
+    <!-------------- /Education ---------------------->
+
+    <!-------------- Contact ---------------------->
+    <div id="Contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="subtitle" style="text-align:center ;"><span>C</span>ontact Me</h1><br>
+                    <p id="email"><i class='bx bxs-envelope about_information-icon'></i>nassereddineabdenbi@gmail.com</p>
+                    <p id="number"><i class='bx bxs-phone about_information-icon'></i>+212681045819</p>
+                    <div class="social-icons">
+                      <a href="https://www.facebook.com/walid.nassereddine.923"><i class='bx bxl-facebook-circle bx-tada' ></i></a>
+                      <a href="https://www.instagram.com/nassereddiiine"><i class='bx bxl-instagram bx-tada' ></i></a>
+                      <a href="https://www.linkedin.com/in/nasser-eddine-546203212"><i class='bx bxl-linkedin bx-tada' ></i></a>
+                      <a href="https://github.com/nassereddine01"><i class='bx bxl-github bx-tada' ></i></a>
+                    </div>
+                    <a href="./CV-FINAL.pdf" download="NASSEREDDINE">
+                        <button class="btn"><i class="fa fa-download"></i> Download CV</button>
+                    </a>
+                </div>
+                <div class="contact-right">
+                    <form onsubmit="sendEmail();reset() ;return false;">
+                        <input type="text" id="Name" placeholder="Your name" required>
+                        <input type="email" id="email" placeholder="Your Email" required>
+                        <textarea id="Message"  rows="6" placeholder="Your Message" required></textarea>
+                        <button type="submit" class="btn2">Send Message</button>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+
+     <!-------------- /Contact ---------------------->
+
+     <!-------------- Footer ---------------------->
+        <div class="copyright">
+            <p> Made with  <i class='bx bxs-heart bx-burst' style="color:aliceblue ;" ></i>  by NASSEREDDINE</p><br>
+            <p>© All right reserved - 2022</p>
+        </div>
+    </div>
+
+    <!-------------- Footer ---------------------->
+
+
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+
+    
+    
+   
+</body>
+</html>
